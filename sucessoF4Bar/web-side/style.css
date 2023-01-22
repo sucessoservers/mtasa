@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat.ttf);
+}
+
+.container {
+    transform: scale(0.7);
+
+}
+
+.barra {
+    position: absolute;
+    left: 50%;
+    margin-left: -453.5px;
+    text-align: center;
+    width: 907px;
+    height: 62px;
+
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+}
+
+
+.itens {
+
+    position: relative;
+    bottom: 10%;
+
+}
+
+
+span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 43px;
+    margin-right: 20px;
+    color: #FFFFFF;
+}
+
+.card {
+
+    position: relative;
+    top: 10px;
+
+}
+
+.bag {
+    position: relative;
+    top: 5px;
+}
+
+.level {
+    position: relative;
+    top: 10px;
+}
+
+.din {
+    position: relative;
+    top: 5px;
+}
